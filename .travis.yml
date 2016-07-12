@@ -2,4 +2,4 @@ language: python
 python:
   - "3.0"
 script:
-  - python tests.py
+  - python testing.py ops-technical-problem-sample-data.txt s3://testbucketdwolla/myfile

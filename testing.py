@@ -40,7 +40,7 @@ def uploadingtos3(json_formatted_string,bucket_key,bucket_name):
 
         # Upload the file to S3
 
-        c = boto.connect_s3('AKIAJZ2XM7R62KEFGTWQ','jOSdsljj7CoPyiIX7wJal9QrK0GOzMQdNZbZwr8Q')
+        c = boto.connect_s3()
         b = c.get_bucket(bucket_name)
         k=Key(b)
         k.key=bucket_key

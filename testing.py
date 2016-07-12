@@ -28,7 +28,6 @@ def getCountRejects(file_path):
                     else:
                         string_dict[sourceip] = 1
             json_string = json.dumps(string_dict)
-            print type(json_string)
 
         return json_string
 
